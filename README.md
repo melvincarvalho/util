@@ -1,2 +1,44 @@
-# util
-utilities
+# Util
+
+A collection of handy utility scripts to make your life easier.
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+  - [getrepos.sh](#getrepossh)
+
+## Installation
+
+1. Clone this repository to your local machine:
+
+```
+git clone https://github.com/yourusername/util.git
+```
+
+
+2. Add the `util/bin` directory to your system's `PATH`:
+
+- For temporary use (resets upon closing the terminal):
+
+  ```
+  export PATH=$PATH:/path/to/util/bin
+  ```
+
+- For permanent use, add the above line to your shell profile (e.g., `~/.bashrc`, `~/.bash_profile`, or `~/.zshrc`).
+
+## Usage
+
+### getrepos.sh
+
+`getrepos.sh` is a script that fetches the names and URLs of a given GitHub user's repositories, sorted by the most recently updated.
+
+#### Usage
+
+```bash
+getrepos.sh <username>
+```
+
+This command will display the names and URLs of the user's repositories, sorted by the most recently updated.
+
+Please note that this script requires the jq command-line JSON processor to be installed on your system.
