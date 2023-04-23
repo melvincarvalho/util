@@ -33,6 +33,10 @@ git clone https://github.com/yourusername/util.git
 
 `getrepos.sh` is a script that fetches the names and URLs of a given GitHub user's repositories, sorted by the most recently updated.
 
+### getlastrepos.sh
+
+`getlastrepos.sh` is a script that fetches the urls of the last updated repos for a given user.
+
 #### Usage
 
 ```bash
@@ -40,5 +44,12 @@ getrepos.sh <username>
 ```
 
 This command will display the names and URLs of the user's repositories, sorted by the most recently updated.
+
+```bash
+getlastrepos.sh <username>
+```
+
+This command will display the URLs of the user's last committed repositories, sorted by the most recently updated.
+
 
 Please note that this script requires the jq command-line JSON processor to be installed on your system.
