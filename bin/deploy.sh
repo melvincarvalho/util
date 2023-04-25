@@ -48,3 +48,4 @@ if git ls-remote --exit-code origin > /dev/null 2>&1; then
 else
   echo "No origin found. Skipping push to origin."
 fi
+
