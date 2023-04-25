@@ -1,5 +1,5 @@
 {
-  "name": "util",
+  "name": "mc-util",
   "version": "0.0.4",
   "description": "util",
   "main": "index.js",
